@@ -14,19 +14,19 @@ public class Client {
 
 				
 			//create operation
-			student.setStudentId(112);
-			student.setName("Akshay_Bha");
-			service.addStudent(student);
+		//	student.setStudentId(112);
+	//		student.setName("Akshay_Bha");
+//			service.addStudent(student);
 
 			
-/*		
+		
 			//Retrieve operation
-			student = service.findStudentById(100);
+			student = service.findStudentById(112);
 			System.out.println("Id: "+student.getStudentId());
 			System.out.println("Name: "+student.getName());
 
 
-			
+			/*
 			//Update operation
 			student = service.findStudentById(100);
 			student.setName("Akshay Bhavsr");
