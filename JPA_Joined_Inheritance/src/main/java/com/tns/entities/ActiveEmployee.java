@@ -1,8 +1,10 @@
 package com.tns.entities;
 
+import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 
 @Entity
+@DiscriminatorValue(value="Active_Emp")
 public class ActiveEmployee extends Employee
 {
 

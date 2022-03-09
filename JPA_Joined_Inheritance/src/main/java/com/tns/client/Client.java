@@ -21,14 +21,14 @@ public class Client {
 		
 		RetiredEmployee re = new RetiredEmployee();
 		
-		ae.seteId(102);
-		ae.seteName("Akshay_B");
+		ae.seteId(109);
+		ae.seteName("Akshay_Bhavsar");
 		ae.seteSalary(50000);
 		ae.seteExperience(3);
 		em.persist(ae);
 		
-		re.seteId(103);
-		re.seteName("Nitin_S");
+		re.seteId(110);
+		re.seteName("Nitin_Saudane");
 		re.setePension(5000);
 		em.persist(re);
 		
